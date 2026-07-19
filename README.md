@@ -1,6 +1,6 @@
 <h1 align="center">Ilya Istomin</h1>
 <p align="center">
-  <strong>Data Engineer</strong> · Madrid, Spain · EU work permit
+  <strong>Data Engineer</strong> · Madrid, Spain · Spanish work permit
 </p>
 <p align="center">
   Building data pipelines, ETL systems, and the infrastructure that turns raw data into decisions.
