@@ -18,7 +18,7 @@ database from scratch, replacing Excel workflows for a 20–40 person team.
 
 BSc in Software Engineering (Data Engineering specialization) at U-tad, Madrid —
 completed 2026, taught fully in English, Matrícula de Honor in Machine Learning.
-Before that: three years of a Computer Security programme at HSE Moscow with a heavy
+Before that: four years of a Computer Security programme at HSE Moscow with a heavy
 mathematics core (calculus, linear algebra, probability, statistics, cryptography).
 
 I care about pipelines that are reproducible, observable, and defensible — not just
