@@ -31,7 +31,7 @@ scripts that happen to run.
 | Project | Description | Stack |
 |:---|:---|:---|
 | [**fuel-price-radar**](https://github.com/isistomin/fuel-price-radar) | Fuel price intelligence pipeline: daily prices from ~11,500 Spanish gas stations (government API) + weekly EU-wide benchmarks since 2005 (EU Oil Bulletin). Runs daily on a VPS: idempotent loading, SQL marts, green CI. | Python, PostgreSQL, SQLAlchemy, Docker, GitHub Actions |
-| **CyberDuel** | End-of-degree project (public defense, 2026): a peer-to-peer prediction market for esports — escrow ledger, order-book and parimutuel matching, optimistic oracle with a dispute window, deterministic settlement. | FastAPI, PostgreSQL |
+| [**CyberDuel**](https://github.com/isistomin/CyberDuel) | End-of-degree project (public defense, 2026): a peer-to-peer prediction market for esports — escrow ledger, order-book and parimutuel matching, optimistic oracle with a dispute window, deterministic settlement. | FastAPI, React, WebSockets, PostgreSQL |
 | **personal-site** *(in progress)* | [isistomin.com](https://isistomin.com) — trilingual CV site with live demos: real-time pipeline data and an interactive TSP route-optimization playground. | Next.js, TypeScript, nginx |
 | **courier-route-optimizer** *(coming soon)* | TSP heuristics (nearest neighbour, 2-opt) with route visualization — a public rebuild of the courier-logistics problem I solved in production. | Python |
 
