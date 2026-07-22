@@ -30,10 +30,10 @@ scripts that happen to run.
 
 | Project | Description | Stack |
 |:---|:---|:---|
-| [**fuel-price-radar**](https://github.com/isistomin/fuel-price-radar) | Fuel price intelligence pipeline: daily prices from ~11,500 Spanish gas stations (government API) + weekly EU-wide benchmarks since 2005 (EU Oil Bulletin). Runs daily on a VPS: idempotent loading, SQL marts, green CI. | Python, PostgreSQL, SQLAlchemy, Docker, GitHub Actions |
+| [**fuel-price-radar**](https://github.com/isistomin/fuel-price-radar) | Fuel price intelligence pipeline: daily prices from ~11,500 Spanish gas stations (government API) + weekly EU-wide benchmarks since 2005 (EU Oil Bulletin). Runs daily on a VPS: idempotent loading, SQL marts, green CI. **[Live status page →](https://isistomin.com/fuel/)** | Python, PostgreSQL, SQLAlchemy, Docker, GitHub Actions |
 | [**CyberDuel**](https://github.com/isistomin/CyberDuel) | End-of-degree project (public defense, 2026): a peer-to-peer prediction market for esports — escrow ledger, order-book and parimutuel matching, optimistic oracle with a dispute window, deterministic settlement. | FastAPI, React, WebSockets, PostgreSQL |
-| **personal-site** *(in progress)* | [isistomin.com](https://isistomin.com) — trilingual CV site with live demos: real-time pipeline data and an interactive TSP route-optimization playground. | Next.js, TypeScript, nginx |
-| **courier-route-optimizer** *(coming soon)* | TSP heuristics (nearest neighbour, 2-opt) with route visualization — a public rebuild of the courier-logistics problem I solved in production. | Python |
+| [**tsp**](https://github.com/isistomin/tsp) | Interactive TSP playground: scatter delivery points on a map of Madrid, compare heuristics (nearest neighbour, greedy edge, 2-opt) by route length and runtime — a public rebuild of the courier-logistics problem I solved in production. **[Live demo →](https://isistomin.com/tsp/)** | TypeScript, Leaflet, Vite |
+| **[isistomin.com](https://isistomin.com)** | Trilingual (EN/ES/RU) CV site, self-hosted on a VPS behind nginx + Let's Encrypt, dark/light theme, serving the live demos above. | Next.js, TypeScript, Docker, nginx |
 
 ---
 
@@ -42,7 +42,7 @@ scripts that happen to run.
 **Core** (production experience)
 `Python` · `SQL` · `PostgreSQL` · `ETL / data pipelines` · `web scraping` ·
 `Pandas` · `SQLAlchemy / Alembic` · `FastAPI` · `Redis` · `Docker` ·
-`GitHub Actions` · `Git`
+`Linux` · `nginx` · `GitHub Actions` · `Git`
 
 **Working knowledge** (projects / coursework)
 `AWS (S3, EC2)` · `React / Next.js` · `TypeScript` · `scikit-learn`
@@ -54,5 +54,6 @@ scripts that happen to run.
 - **Website:** [isistomin.com](https://isistomin.com)
 - **LinkedIn:** [linkedin.com/in/ilyaistomin](https://linkedin.com/in/ilyaistomin)
 - **Email:** ilyaistom17@gmail.com
-- **Telegram:** [@diabobus](https://t.me/diabobus)
+- **Telegram:** [@isistomin](https://t.me/isistomin)
 - **Location:** Madrid, Spain
+</p>
